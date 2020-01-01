@@ -9,7 +9,8 @@ class Helper {
       totalTime = player.getDuration();
   }
 
-  $('#time-control .total-time').text(totalTime);
+  /* prettified! */
+    $('#time-control .total-time').text(player.prettyTime(totalTime));
 
 };
 
